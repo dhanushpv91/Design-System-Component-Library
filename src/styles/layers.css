@@ -1,0 +1,6 @@
+/*
+ * Cascade layers, lowest to highest priority.
+ * The order is declared once, here, so every later @layer block slots into a known position.
+ * Unlayered CSS in a consuming app always beats these layers, which makes overrides painless.
+ */
+@layer reset, tokens, base, components, utilities;

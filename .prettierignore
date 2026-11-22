@@ -1,0 +1,7 @@
+dist
+coverage
+node_modules
+package-lock.json
+src/styles/tokens.css
+src/tokens/tokens.ts
+tailwind.preset.cjs

@@ -1,0 +1,52 @@
+@layer components {
+  .ds-field {
+    display: grid;
+    gap: 6px;
+    width: 100%;
+  }
+
+  .ds-field__label {
+    color: var(--ds-color-text);
+    font-size: var(--ds-font-size-sm);
+    font-weight: var(--ds-font-weight-semibold);
+  }
+
+  .ds-field__required {
+    margin-left: 3px;
+    color: var(--ds-color-danger-text);
+  }
+
+  .ds-input {
+    width: 100%;
+    min-height: 40px;
+    padding: 9px var(--ds-space-3);
+    color: var(--ds-color-text);
+    background: var(--ds-color-surface);
+    border: 1px solid var(--ds-color-border-control);
+    border-radius: var(--ds-radius-md);
+    font-size: var(--ds-font-size-sm);
+  }
+
+  .ds-input::placeholder {
+    color: var(--ds-color-text-muted);
+  }
+
+  .ds-input:disabled {
+    opacity: 0.55;
+    cursor: not-allowed;
+  }
+
+  .ds-input[aria-invalid='true'] {
+    border-color: var(--ds-color-danger-text);
+  }
+
+  .ds-field__hint {
+    color: var(--ds-color-text-muted);
+    font-size: var(--ds-font-size-xs);
+  }
+
+  .ds-field__error {
+    color: var(--ds-color-danger-text);
+    font-size: var(--ds-font-size-xs);
+  }
+}
