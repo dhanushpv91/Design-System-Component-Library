@@ -70,10 +70,6 @@ tailwind.preset.cjs            generated Tailwind preset
 docs/                          architecture, tokens/Figma handoff, roadmap, brief
 ```
 
-## Documentation
-
-[Project brief](docs/PROJECT_BRIEF.md) · [Architecture](docs/ARCHITECTURE.md) · [Design tokens & Figma handoff](docs/DESIGN_TOKENS.md) · [Roadmap](docs/ROADMAP.md) · [Week 1 milestone](milestones/week-1-foundation.md) · [Contributing](CONTRIBUTING.md) · [Changelog](CHANGELOG.md)
-
 ## Author
 
 Designed and built by **Dhanush** as an independent portfolio project.
